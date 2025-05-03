@@ -1,0 +1,153 @@
+.profile{
+    display: flex;
+    gap: 1.2rem;
+    
+}
+
+.profile h3{
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+p {
+    padding-left: 4rem;
+    padding-top: 0.5rem;
+}
+.chat-container{
+    height: 80vh;
+}
+.chat{
+    list-style: none;
+    color: #fff;
+    font-size: 2rem;
+    margin-bottom: 5.5rem;
+    padding-left: 1rem;
+    margin-top: -4rem;
+}
+
+.chat-container .chatbox{
+    overflow-y: auto;
+    height: 80%;
+    padding: 60px 50px 100px;
+
+}
+
+
+.input{
+    position: fixed;
+    bottom: 3rem;
+    width: 55%;
+}
+textarea {
+    position: relative;
+    width:100%;
+    height: 8rem;
+    border-radius: 2.4rem;
+    border: 0.2rem solid #c1c0c0;
+    color: #fff;
+    font-size: 2rem;
+    padding-right: 5rem;
+    padding-left: 3rem; 
+    padding-top: 2.5rem;
+    box-sizing: border-box;
+    
+}
+
+textarea::placeholder {
+    color: #cacaca;
+    font-size: 2rem; 
+}
+
+.arrow {
+    color: #c1c0c0b0;
+    position: absolute;
+    right: 1.5rem;
+    top: 2.5rem;
+    cursor: pointer;
+}
+
+.recorder {
+    color: #c1c0c0b0;
+    position: absolute;
+    right: 6rem;
+    top: 2.5rem;
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 360px) and (max-width: 430px) {
+
+    .profile{
+        gap: 0.5rem;   
+    }
+    
+    .profile h3{
+        margin-top: 0.7rem;
+        color: #fff;
+        font-size: 1rem;
+    }
+    
+    
+    p {
+        padding-left: 0.7rem;
+        padding-top: 0.5rem;
+    }
+    .chat-container{
+        height: 70vh;
+    }
+    .chat{
+        list-style: none;
+        color: #fff;
+        font-size: 0.9rem;
+        margin-bottom: 3rem;
+        padding-left: 0.01rem;
+        margin-top: -3rem;
+
+    }
+    
+    textarea {
+        position: relative;
+        width:100%;
+        height: 4rem;
+        border-radius: 2rem;
+        border: 0.2rem solid #c1c0c0;
+        color: #fff;
+        font-size: 1rem;
+        padding-right: 5rem;
+        padding-left: 1.5rem; 
+        padding-top: 1rem;
+        box-sizing: border-box;
+        
+    }
+    
+    textarea::placeholder {
+        color: #cacaca;
+        font-size: 0.9rem; 
+    }
+    
+    .arrow {
+        color: #c1c0c0b0;
+        position: absolute;
+        right: 1.5rem;
+        top: 0.2rem;
+        cursor: pointer;
+        width: 1.5rem;
+    }
+    
+    .recorder {
+        color: #c1c0c0b0;
+        position: absolute;
+        right: 3.5rem;
+        top: 0.2rem;
+        cursor: pointer;
+        width: 1.5rem;
+    }
+
+    .ai{
+        width:1.5rem;
+    }
+    
+    .user{
+        width: 4rem;
+    }
+}
